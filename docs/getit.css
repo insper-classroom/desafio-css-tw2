@@ -117,20 +117,66 @@ body {
   font-family: 'Roboto';
   font-size: 20px;
   font-weight: 600;
+  border: none;
 }
 
 .autoresize {
   width: 500px;
   font-family: 'Roboto';
   font-size: 15px;
+  border: none;
 }
 
 .btn {
   width: 500px;
   padding: 10px;
-  border-radius: 4px;
+  border-radius: 6px;
   background-color: #f7d736;
   font-family: 'Roboto';
   font-weight: 700;
+  border: none;
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+
+.card-color-1 {
+  background-color: #ead3a7;
+}
+
+.card-color-2 {
+  background-color: #9de0f5;
+}
+
+.card-color-3 {
+  background-color: #ef89ba;
+}
+
+.card-color-4 {
+  background-color: #fae890;
+}
+
+.card-color-5 {
+  background-color: #abe9c1;
+}
+
+.card {
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.card-container {
+  display: flex;
+  gap: 24px;
+}
+
+.card-title {
+  margin-bottom: 10px;
+  font-family: 'Permanent Marker';
+}
+
+.card-content p {
+  font-family: 'Permanent Marker';
+  font-size: 13px;
+  color: #4c4c4c;
 }
