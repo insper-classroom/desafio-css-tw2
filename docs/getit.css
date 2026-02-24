@@ -100,9 +100,9 @@ body {
 
 
 .container {
-  width:600px;
   margin: auto;
   padding: 28px;
+
 }
 
 .form-card {
@@ -162,12 +162,15 @@ body {
 .card {
   padding: 10px;
   border-radius: 6px;
+  width: 200px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
 .card-container {
   display: flex;
   gap: 24px;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .card-title {
